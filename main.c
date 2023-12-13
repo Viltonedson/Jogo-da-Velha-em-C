@@ -86,7 +86,7 @@ que ele vai querer jogar */
         printf("Digite uma coluna:");
         scanf("%i", &c);
 
-//aqui é para delimitar que a coluna e linha naos seja menor que 1 e maior que 3
+//aqui é para delimitar que a coluna e linha naos seja menor que 1 e maior que 3 fazendo uma limitação
         if(l < 1 || c < 1 || l > 3 || c > 3){
 
             printf("Linha ou Coluna não pode ser menor que 1\n");
